@@ -3,8 +3,10 @@ body {
 }
 
 h1 {
-    color: #022b3a
+    color: #022b3a;
+    font-family: 'Montserrat', sans-serif;
 }
+
 nav {
     background-color: #fff;
     text-align: center;
