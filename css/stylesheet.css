@@ -2,12 +2,25 @@ body {
     background-color: #e1e5f2;
 }
 
-.htmlh1 {
-    color: #022b3a;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.header-and-footer {
+.footer {
     background-color: #fff;
     text-align: center;
+}
+
+.flex-container {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item-first {
+    color: #022b3a;
+    font-family: 'Montserrat', sans-serif;
+    flex: 1 0 100%;
+}
+
+.flex-item {
+    padding: 15px;
+    display: inline-block;
 }
