@@ -14,9 +14,12 @@ body {
     justify-content: center;
 }
 
+#htmlheader {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .flex-item-first {
     color: #022b3a;
-    font-family: 'Montserrat', sans-serif;
     text-align: center;
     flex: 0 0 100%;
 }
