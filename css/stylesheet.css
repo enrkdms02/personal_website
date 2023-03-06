@@ -35,9 +35,38 @@ body {
     column-gap: 20px;
 }
 
-section {
+nav {
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    border-bottom: 1px solid black;
+    padding-bottom: 0%;
+}
+
+article section {
+    border-bottom: 1px solid gray;
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 600px) {
+    nav {
+        display: flex
+    }
+
+    article section {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        border-bottom: 1px solid black;
+    }
+
+    .coursename {
+        order: 1;
+    }
+
+    .semester {
+        order: 3;
+    }
+
+    .coursedesc {
+        order: 2;
+    }
 }
